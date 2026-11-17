@@ -144,7 +144,7 @@ export function EstimateCalculator() {
           </div>
         </div>
         <a
-          href={`mailto:hello@sim.studio?subject=${encodeURIComponent(
+          href={`mailto:contato@simfilms.com.br?subject=${encodeURIComponent(
             `${t.estimate.title} — ${lang === "pt" ? type.labelPT : type.labelEN}`
           )}`}
           className="inline-flex items-center gap-2 rounded-full bg-cream px-6 py-3 font-mono text-[11px] uppercase tracking-wide2 text-noir-950 transition-transform hover:scale-[1.03]"
