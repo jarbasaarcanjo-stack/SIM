@@ -5,9 +5,7 @@ import { Reveal } from "./ui";
 import { getEmail, getEmailHref, getTel, getTelHref } from "../lib/contact";
 
 const SOCIALS = [
-  { label: "Instagram", href: "#" },
-  { label: "LinkedIn", href: "#" },
-  { label: "Wfolio", href: "#" },
+  { label: "Instagram · @simfilmsbr", href: "https://www.instagram.com/simfilmsbr/" },
 ];
 
 const NAV_LINKS = [
