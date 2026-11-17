@@ -4,8 +4,8 @@
  * de forma que crawlers que só leem HTML estático não o capturem direto.
  */
 
-const EMAIL_USER = "jarbasaarcanjo";
-const EMAIL_DOMAIN = "gmail.com";
+const EMAIL_USER = "contato";
+const EMAIL_DOMAIN = "simfilms.com.br";
 
 const TEL_PARTS = ["+55", "31", "9", "9318-8052"];
 
