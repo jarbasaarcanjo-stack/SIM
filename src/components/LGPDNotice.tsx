@@ -127,8 +127,8 @@ function PrivacyPolicyModal({ onClose }: { onClose: () => void }) {
           <Section
             title={label("5. Contato", "5. Contact")}
             body={label(
-              "Em caso de dúvidas, escreva para hello@sim.studio.",
-              "For any questions, write to hello@sim.studio."
+              "Em caso de dúvidas, escreva para contato@simfilms.com.br.",
+              "For any questions, write to contato@simfilms.com.br."
             )}
           />
         </div>
