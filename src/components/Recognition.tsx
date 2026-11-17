@@ -29,24 +29,6 @@ export function Recognition() {
           </div>
         </Reveal>
 
-        {/* Países onde já atuamos */}
-        <Reveal className="mt-14 border-t border-noir-800 pt-10">
-          <div className="font-mono text-[10px] uppercase tracking-wide2 text-noir-500">
-            {t.recognition.countriesLabel}
-          </div>
-          <ul className="mt-6 flex flex-wrap gap-x-3 gap-y-4">
-            {t.recognition.countries.map((country, i) => (
-              <li key={country} className="flex items-center">
-                <span className="font-display text-2xl font-light text-noir-100 transition-colors hover:text-cream md:text-3xl">
-                  {country}
-                </span>
-                {i < t.recognition.countries.length - 1 && (
-                  <span className="ml-3 inline-block h-1.5 w-1.5 rotate-45 bg-accent/70" />
-                )}
-              </li>
-            ))}
-          </ul>
-        </Reveal>
       </div>
     </section>
   );
