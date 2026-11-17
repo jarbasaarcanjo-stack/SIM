@@ -41,8 +41,8 @@ export function AIAgent() {
         : "Intimate documentaries filmed with time and honesty. Kintsugi is a good example.";
     if (has("contato", "contact", "email", "falar", "talk", "olá", "hello", "oi"))
       return L === "pt"
-        ? "Escreva para hello@sim.studio ou role até o rodapé. Respondemos em 24h."
-        : "Email hello@sim.studio or scroll to the footer. We reply within 24h.";
+        ? "Escreva para contato@simfilms.com.br ou role até o rodapé. Respondemos em 24h."
+        : "Email contato@simfilms.com.br or scroll to the footer. We reply within 24h.";
     if (has("still", "movement", "movimento", "manifesto", "conceito"))
       return L === "pt"
         ? "Still In Movement: acreditamos na imagem parada que contém o movimento. É o princípio de tudo o que filmamos."
